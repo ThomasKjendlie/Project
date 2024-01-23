@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: hsl(240, 30%, 15%);
+}
+
+header {
+  background-color: hsl(240, 40%, 12%);
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-item,
+.center-items,
+.right-item {
+  display: flex;
+  align-items: center;
+}
+
+.center-items {
+  justify-content: center;
+  list-style-type: none;
+}
+
+.item {
+  padding: 10px;
+  margin: 10px;
+  background-color: hsl(221, 44%, 41%);
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+.center-items .item:hover,
+.left-item .item:hover,
+.right-item .item:hover {
+  background-color: hsl(221, 58%, 58%);
+}
+
+#link {
+  text-decoration: none;
+  color: white;
+}
+
+.front-img img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.om-oss,
+.kontakt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  padding: 50px;
+}
+
+.om-oss .article1,
+.kontakt .article3 {
+  float: left;
+  color: aliceblue;
+}
+
+.om-oss img {
+  width: 100%;
+  height: 80%;
+  float: left;
+}
+
+.personlig-trener {
+  display: flex;
+  align-items: start;
+  font-size: large;
+  justify-content: left;
+  padding: 50px;
+}
+
+.personlig-trener .article2 {
+  float: right;
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+.personlig-trener img {
+  width: 100%;
+  height: 80%;
+  float: right;
+}
+
+.kontakt img {
+  width: 100%;
+  height: 80%;
+  float: left;
+  padding: 20px;
+}
+
+footer {
+  background-color: hsl(240, 40%, 12%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons li {
+  display: inline-flex;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 500px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.copyright {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+.copyright div,
+#time {
+  padding-left: 5px;
+}
+
+.pt-overskrift {
+  text-align: center;
+}
+
+.ptButton {
+  padding: 20px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: #3b5998;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  width: 200px;
+  border: 2px solid aliceblue;
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+}
+
+#displayedImage {
+  text-indent: -9999px;
+}
+
+.ptButton:hover {
+  border-color: #3b5998;
+  transition: 0.5s;
+}

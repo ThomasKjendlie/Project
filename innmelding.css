@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: hsl(240, 30%, 15%);
+  color: hsl(210, 11%, 96%);
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+.link {
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  position: absolute;
+}
+
+#link {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  display: block;
+  height: 10px;
+}
+
+input {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  height: 25px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: hsl(221, 44%, 41%);
+  color: aliceblue;
+  min-width: 300px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+footer {
+  background-color: hsl(240, 40%, 12%);
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons li {
+  display: inline-flex;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 500px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.copyright {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+.copyright div,
+#time {
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}

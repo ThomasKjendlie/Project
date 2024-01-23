@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bli Medlem</title>
+    <link rel="stylesheet" href="innmelding.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="link">
+        <a href="http://127.0.0.1:5500/index.html" id="link">Jan Bob's Gym</a>
+      </div>
+    </header>
+    <div class="center">
+      <h1>Registrer deg</h1>
+      <p>fyll ut feltene under for å registrere deg</p>
+
+      <form action="" id="form">
+        <div>
+          <label for="name">Fornavn</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Skriv inn Fornavn"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="name">Etternavn</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Skriv inn Etternavn"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="adresse">Adresse</label>
+          <input
+            type="text"
+            name="adresse"
+            id="adresse"
+            placeholder="Skriv inn din adresse"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="postnr">Postnr</label>
+          <input
+            type="number"
+            name="postnr"
+            id="postnr"
+            placeholder="Skriv inn postnummer"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="poststed">Poststed</label>
+          <input
+            type="text"
+            name="poststed"
+            id="poststed"
+            placeholder="Skriv inn poststed"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="telefon">Telefon</label>
+          <input
+            type="number"
+            name="telefon"
+            id="telefon"
+            placeholder="Skriv inn telefonnummer"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Skriv inn Email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="passord">Passord</label>
+          <input
+            type="password"
+            name="passord"
+            id="passord"
+            placeholder="Skriv inn passord"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="number-label" for="number">Alder</label>
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            placeholder="Alder"
+            required
+          />
+        </div>
+
+        <div>
+          <button type="submit" id="submit">Send inn</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        &copy;
+        <label id="time"></label>
+        <div>Jan Bobs gym</div>
+      </div>
+      <ul class="social-icons">
+        <li>
+          <a href="https://facebook.com" class="fa fa-facebook"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" class="fa fa-twitter"></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" class="fa fa-instagram"></a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      let date = new Date();
+      year = date.getFullYear();
+
+      document.getElementById("time").innerHTML = year;
+    </script>
+  </body>
+</html>

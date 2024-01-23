@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan Bob's Gym</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="left-item">
+        <div class="item">
+          <a href="index.html" id="link"> Jan Bob's Gym</a>
+        </div>
+      </div>
+
+      <ul class="center-items">
+        <li class="item"><a href="#om_oss" id="link">Om oss</a></li>
+        <li class="item"><a href="#pt" id="link">Personlig trener</a></li>
+        <li class="item"><a href="#kontakt" id="link">Kontakt</a></li>
+        <li class="item">
+          <a href="trening.html" id="link">Gruppetimer</a>
+        </li>
+        <li class="item">
+          <a href="http://localhost/index.php" id="link">Min Side</a>
+        </li>
+      </ul>
+
+      <div class="right-item">
+        <div class="item">
+          <a href="innmelding.html" id="link">Bli medlem</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="front-img">
+      <img
+        src="https://clemjonescentre.com.au/wp-content/uploads/2022/08/7-scaled.jpeg"
+        alt="picture of an empty gym"
+      />
+    </section>
+
+    <section class="om-oss" id="om_oss">
+      <article class="article1">
+        <h2>Om oss</h2>
+        <p>
+          Velkommen til Jan Bob's gym, ditt ultimative sted for å kickstarte
+          reisen til en sunnere og sterkere versjon av deg selv! Vårt topp
+          moderne treningsstudio er utstyrt med avanserte fasiliteter og erfarne
+          trenere som er dedikerte til å hjelpe deg med å nå dine helsemål.
+          Enten du er en erfaren fitnessentusiast eller nybegynner som tar de
+          første skrittene på treningsreisen din, er vårt inkluderende og
+          motiverende miljø designet for å imøtekomme alle nivåer.
+        </p>
+        <p>
+          Fordyp deg i en verden av førsteklasses kardioutstyr,
+          motstandsmaskiner og frie vekter som vil utfordre og heve
+          treningsopplevelsen din. Våre gruppetreningsklasser tilbyr en dynamisk
+          og engasjerende måte å svette på, med alternativer som spenner fra
+          høyintensiv intervalltrening (HIIT) til yoga, slik at det er noe for
+          alle.
+        </p>
+        <p>
+          på Bob's gym tror vi på å skape et fellesskap og støtte. Vårt vennlige
+          personale er alltid klare til å hjelpe deg, og vår livlige
+          medlemsgruppe skaper en atmosfære av oppmuntring og samhold. Bli med
+          oss i vårt engasjement for å fremme en sunn livsstil, der hver dråpe
+          svette er et skritt nærmere en mer energisk og selvsikker versjon av
+          deg selv.
+        </p>
+        <p>
+          Så, knyt på deg joggeskoene, ta med vannflasken, og la oss begynne på
+          denne treningsreisen sammen på Jan Bob's gym – der hver treningsøkt
+          bringer deg nærmere din beste versjon!
+        </p>
+      </article>
+      <div>
+        <img
+          src="https://clemjonescentre.com.au/wp-content/uploads/2022/08/4-scaled.jpeg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="personlig-trener" id="pt">
+      <div>
+        <img
+          src="https://clemjonescentre.com.au/wp-content/uploads/2022/08/2-scaled.jpeg"
+          alt=""
+        />
+      </div>
+      <article class="article2">
+        <h2>Personlig trener</h2>
+        <p>
+          Møt våre erfarne personlige trenere som er klare til å veilede deg
+          gjennom din unike fitnessreise! Våre trenere har omfattende kunnskap
+          og ekspertise innen trening, ernæring og livsstilsforbedring. Uansett
+          om du er nybegynner eller en erfaren utøver, vil våre personlige
+          trenere skreddersy et treningsprogram spesielt for deg, med fokus på å
+          oppnå dine individuelle mål.
+        </p>
+        <p>
+          Våre trenere er ikke bare dedikert til å hjelpe deg med å forbedre
+          fysisk styrke og kondisjon, men de er også lidenskapelige om å skape
+          en støttende og motiverende atmosfære. Gjennom personlig veiledning og
+          tilpasset coaching, vil de hjelpe deg med å overvinne hindringer,
+          opprettholde motivasjonen og optimalisere resultatene dine.
+        </p>
+        <p>
+          Enten du ønsker å gå ned i vekt, bygge muskler, forbedre utholdenheten
+          eller jobbe med spesifikke helsemål, er våre personlige trenere klare
+          til å være din pålitelige partner på veien mot suksess. Ta det første
+          skrittet mot en sunnere livsstil med støtte fra våre dedikerte
+          personlige trenere her hos oss. La oss sammen skape et program som
+          passer perfekt for deg og gir deg nøkkelen til å oppnå dine helsemål.
+        </p>
+        <h2 class="pt-overskrift">Personlige trenere</h2>
+        <div class="centerButton">
+          <button class="ptButton" onclick="toggleImage('pt1.png')">
+            Jan Bob
+          </button>
+          <button class="ptButton" onclick="toggleImage('pt2.png')">
+            Bob Jonas
+          </button>
+          <button class="ptButton" onclick="toggleImage('pt3.png')">
+            Knut Kåre
+          </button>
+          <button class="ptButton" onclick="toggleImage('pt4.png')">
+            Jon Tor
+          </button>
+        </div>
+        <div id="imageContainer">
+          <img id="displayedImage" />
+        </div>
+
+        <!--
+        <button class="show-img" id="show-img1" type="button">Jan Bob</button>
+        <img id="pt-img1" src="pt1.png" class="hidden">
+        <button class="show-img" id="show-img2" type="button">Bob Jonas</button>
+        <img id="pt-img2" src="pt2.png" class="hidden">
+        <button class="show-img" id="show-img3" type="button">Knut Kåre</button>
+        <img id="pt-img3" src="pt3.png" class="hidden">
+        <button class="show-img" id="show-img4" type="button">Jon Tor</button>
+        <img id="pt-img4" src="pt4.png" class="hidden">
+        -->
+      </article>
+    </section>
+
+    <section class="kontakt" id="kontakt">
+      <article class="article3">
+        <h2>Kontakt</h2>
+        <p>
+          Ønsker du å komme i kontakt med oss på Treningssenteret? Vi står klare
+          til å hjelpe deg med alle spørsmål du måtte ha angående medlemskap,
+          treningstilbud eller annen informasjon. Det er flere måter du kan
+          kontakte oss på:
+        </p>
+        <p>
+          Telefon: Ring oss på 44455666 for umiddelbare svar på dine spørsmål.
+          Vårt vennlige personale er tilgjengelig for å gi deg all nødvendig
+          informasjon og hjelpe deg med eventuelle bekymringer.
+        </p>
+        <p>
+          E-post: Send oss en e-post på janbobsgym@bob.com. Vi forsikrer deg om
+          at vi vil svare så raskt som mulig. Dette er en flott måte å få
+          detaljert informasjon eller stille spørsmål som krever en mer grundig
+          forklaring.
+        </p>
+        <p>
+          Besøk oss: Ta gjerne turen til Treningssenteret personlig. Våre
+          ansatte vil være glade for å ta deg med på en omvisning, svare på
+          spørsmål og hjelpe deg med å finne den beste treningsplanen for dine
+          behov.
+        </p>
+        <p>
+          Sosiale medier: Følg oss på våre sosiale medieplattformer som
+          facebook, twitter og instagram for oppdateringer, arrangementer og
+          direkte meldinger. Dette er en praktisk måte å holde deg informert og
+          enkelt komme i kontakt med oss.
+        </p>
+        <p>
+          Uansett hvilken metode du velger, ser vi frem til å høre fra deg og
+          være til hjelp på din reise mot en sunnere livsstil. Vi er her for å
+          støtte deg på hvert skritt av veien!
+        </p>
+      </article>
+      <div>
+        <img
+          src="https://clemjonescentre.com.au/wp-content/uploads/2022/08/3-scaled.jpeg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright">
+        &copy;
+        <label id="time"></label>
+        <div>Jan Bobs gym</div>
+      </div>
+      <ul class="social-icons">
+        <li>
+          <a href="https://facebook.com" class="fa fa-facebook"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" class="fa fa-twitter"></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" class="fa fa-instagram"></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
